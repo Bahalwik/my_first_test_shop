@@ -1,0 +1,130 @@
+html,body{
+    height: 100%;
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home{
+    color: white;
+    text-align: center;
+}
+
+.top-container{
+    padding-top: 30px;
+}
+
+.general-container{
+    background-color: grey;
+    height: 100%;
+
+    margin-bottom: 100px
+}
+
+
+.general-container form label{
+    font-weight: 100;
+    color: white;
+}
+
+.general-container form{
+    margin-top: 30px;
+}
+
+.product-item{
+    height: 350px;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    border: 2px solid lightgrey;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.section-top{
+    margin: 20px;
+    text-align: center;
+}
+
+.add-to-card-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 57px
+}
+
+.home-image{
+    height: 130px;
+}
+
+.footer{
+    margin-bottom: 200px;
+    height: 200px;
+}
+
+.nav-link{
+    color: white;
+}
+
+.discount-container{
+    position: absolute;
+    top: 30%;
+    background: darkgreen;
+    color: white;
+    font-weight: 900;
+    padding: 3px;
+}
+
+.section-delivery{
+    height: 300px;
+    background-color: dodgerblue;
+    text-align: center;
+    color: black;
+}
+
+.item-image{
+    height: 350px;
+}
+
+.description-tab{
+    padding: 10px;
+}
+
+
+.item-page-images{
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+
+.basket-container {
+
+    margin-right: -100px;
+    padding: 10px 10px 10px 10px;
+    width: 100px;
+    position: relative;
+
+}
+
+
+.basket-items {
+    background-color: yellow;
+    position: absolute;
+    top: 32px;
+    width: 300%;
+    z-index: 10;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.navbar-top{
+    background-color: lightgreen;
+}
+
+.hidden{
+    visibility: hidden;
+
+}
+
+.navbar-right{
+    padding-left: 730px;
+}
+
