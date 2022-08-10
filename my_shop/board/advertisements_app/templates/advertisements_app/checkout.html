@@ -9,7 +9,19 @@
                 <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }}</h5>
                         {{ request.session.basket.products }}
 
-                <form>
+                <form class="form-inline" method="post">{% csrf_token %}
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Имя</label>
+                            <span class="form-error">{{ form.name.errors }}</span>
+                            <input type="text" name="{{ form.name.html_name }}" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Телефон</label>
+                            <span class="form-error">{{ form.name.errors }}</span>
+                            <input type="text" name="{{ form.phone.html_name }}" class="form-control">
+                        </div>
+                    </div>
                     <table class="table text-center">
                         <thead>
                             <tr>
@@ -27,7 +39,7 @@
                                     </td>
                                     <td>
                                         <input value="{{ product_in_basket.nmb }}" type="number"
-                                               class="product_in_basket_nmb">
+                                               class="product_in_basket_nmb" name="product_in_basket{{ product_in_basket.id }}">
                                     </td>
                                     <td>
                                         <span class="product-price">

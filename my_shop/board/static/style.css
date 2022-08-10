@@ -14,7 +14,7 @@ html,body{
 }
 
 .general-container{
-    background-color: grey;
+    background-color: lightgrey;
     height: 100%;
 
     margin-bottom: 100px
@@ -23,7 +23,7 @@ html,body{
 
 .general-container form label{
     font-weight: 100;
-    color: white;
+    color: black;
 }
 
 .general-container form{
@@ -61,7 +61,7 @@ html,body{
 }
 
 .nav-link{
-    color: white;
+    color: black;
 }
 
 .discount-container{
@@ -128,3 +128,6 @@ html,body{
     padding-left: 730px;
 }
 
+.form-error{
+    color: red;
+}
